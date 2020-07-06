@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9487" started-at="2020-06-10T10:09:58 IST" finished-at="2020-06-10T10:10:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9487" started-at="2020-06-10T10:09:58 IST" finished-at="2020-06-10T10:10:08 IST">
+      <class name="TwitterAPI.AddTweet">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TwitterAPI.AddTweet@64729b1e]" name="setUp" is-config="true" duration-ms="1176" started-at="2020-06-10T10:09:57 IST" finished-at="2020-06-10T10:09:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTweet()[pri:0, instance:TwitterAPI.AddTweet@64729b1e]" name="getTweet" duration-ms="9365" started-at="2020-06-10T10:09:58 IST" finished-at="2020-06-10T10:10:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTweet -->
+        <test-method status="PASS" signature="delTweet()[pri:0, instance:TwitterAPI.AddTweet@64729b1e]" name="delTweet" duration-ms="5" started-at="2020-06-10T10:10:08 IST" depends-on-methods="TwitterAPI.AddTweet.getTweet" finished-at="2020-06-10T10:10:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delTweet -->
+      </class> <!-- TwitterAPI.AddTweet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
